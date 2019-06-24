@@ -1,10 +1,14 @@
 
 package com.reactlibrary;
 
+import android.widget.Toast;
+import android.content.Intent;
+import android.support.v4.app.NotificationManagerCompat;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.Promise;
 
 public class RNCheckNotificationPermissionModule extends ReactContextBaseJavaModule {
 
