@@ -26,24 +26,6 @@
 <img style="float: left" alt="react-native-swiper" src="https://i.imgur.com/THTKAEk.png" width="500"> 
 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 #### Android
 
