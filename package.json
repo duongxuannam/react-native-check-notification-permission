@@ -8,10 +8,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native", "notification-permission","edit-notification","android","ios"
   ],
-  "author": "",
-  "license": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongxuannam/react-native-check-notification-permission/issues"
+  },
+  "homepage": "https://github.com/duongxuannam/react-native-check-notification-permission",
+  "author": "Duong Xuan Nam <duongxuannam1995@gmail.com>",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
