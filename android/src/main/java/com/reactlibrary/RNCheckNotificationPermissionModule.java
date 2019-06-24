@@ -31,7 +31,7 @@ public class RNCheckNotificationPermissionModule extends ReactContextBaseJavaMod
   }
 
       @ReactMethod
-    public void goNotificationSetting() {
+    public void changeNotificationSetting() {
         Intent intent = new Intent("android.settings.APP_NOTIFICATION_SETTINGS"); // Settings.ACTION_APP_NOTIFICATION_SETTINGS
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);

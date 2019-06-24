@@ -27,7 +27,7 @@ class RNCheckNotificationPermission: NSObject {
     }
     
     @objc
-    func goNotificationSetting() {
+    func changeNotificationSetting() {
         if #available(iOS 10.0, *) {
             UIApplication.shared.open( URL(string:UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
         } else {

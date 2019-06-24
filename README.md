@@ -19,6 +19,32 @@
 3. In XCode, in the project navigator, select your project. Add `libRNCheckNotificationPermission.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
+###### Note
+   Because library written in Swift you need to add this `$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)` to the library search paths of your target.
+   You also set `Always Embed Swift Standard Libraries` to `Yes` under your `Build Settings > Build Options` 
+
+<img style="float: left" alt="react-native-swiper" src="https://i.imgur.com/THTKAEk.png" width="500"> 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
@@ -36,9 +62,21 @@
 
 ## Usage
 ```javascript
-import RNCheckNotificationPermission from 'react-native-check-notification-permission';
+import {changeNotificationSetting,checkNotificationPermission} from 'react-native-check-notification-permission';
 
-// TODO: What to do with the module?
-RNCheckNotificationPermission;
+function(){
+	...
+	const bool = await checkNotificationPermission();
+	changeNotificationSetting();
+    ...
+}
 ```
+
+## Properties
+
+
+| Prop   | Type | Result | Description |
+| :------------ |:---------------:| :---------------:| :-----| :---------------:|
+| checkNotificationPermission  | `func` |`bool` |Get status notification permission. Return `true` if allowed and false if deny
+| changeNotificationSetting  | `func` | `void`|Navigate to setting notification screen |
   

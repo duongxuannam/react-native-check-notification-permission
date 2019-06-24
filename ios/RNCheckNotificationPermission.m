@@ -5,5 +5,5 @@
 RCT_EXTERN_METHOD(checkNotificationPermission:
                   (RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
-RCT_EXTERN_METHOD(goNotificationSetting)
+RCT_EXTERN_METHOD(changeNotificationSetting)
 @end
