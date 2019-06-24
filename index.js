@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNCheckNotificationPermission } = NativeModules;
+const {RNCheckNotificationPermission:{goNotificationSetting,checkNotificationPermission}} = NativeModules
 
-export default RNCheckNotificationPermission;
+export  {goNotificationSetting,checkNotificationPermission};

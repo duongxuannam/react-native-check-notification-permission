@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-@objc(NotificationPermission)
-class NotificationPermission: NSObject {
+@objc(RNCheckNotificationPermission)
+class RNCheckNotificationPermission: NSObject {
     
     @objc
     func checkNotificationPermission(_ resolve: @escaping RCTPromiseResolveBlock,

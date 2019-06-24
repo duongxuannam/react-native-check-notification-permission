@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-check-notification-permission",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,6 @@
   "homepage": "https://github.com/duongxuannam/react-native-check-notification-permission",
   "author": "Duong Xuan Nam <duongxuannam1995@gmail.com>",
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
-
+    "react-native": "^0.41.2"
   }
 }
