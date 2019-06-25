@@ -3,8 +3,7 @@
 
 ## Demo 
 
-### iOS
-![](https://i.imgur.com/nnnJGmN.gif)
+
 ### Android
 ![](https://i.imgur.com/nnnJGmN.gif)
 
