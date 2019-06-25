@@ -66,7 +66,7 @@ function(){
 
 
 | Prop   | Type | Result | Description |
-| :------------ |:---------------:| :---------------:| :-----| :---------------:|
+| :------------ |:---------------:| :---------------:| :-----|
 | checkNotificationPermission  | `func` |`bool` |Get status notification permission. Return `true` if allowed and false if deny
 | changeNotificationSetting  | `func` | `void`|Navigate to setting notification screen |
   
