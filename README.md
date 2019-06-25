@@ -5,7 +5,7 @@
 
 ### iOS
 
-![](https://i.imgur.com/nnnJGmN.gif)
+![](ios.gif)
 
 ### Android
 
