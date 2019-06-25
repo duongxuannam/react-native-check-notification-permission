@@ -3,9 +3,10 @@
 
 ## Demo 
 
-
-### Android
+### iOS
 ![](https://i.imgur.com/nnnJGmN.gif)
+### Android
+![](https://i.imgur.com/SfjrjTP.gif)
 
 ## Getting started
 
