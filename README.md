@@ -1,6 +1,11 @@
 
 # react-native-check-notification-permission
+## Demo 
+###iOS
+![](https://i.imgur.com/nnnJGmN.gif=300x)
+###Android
 
+![](https://i.imgur.com/SfjrjTP.gif=300x)
 ## Getting started
 
 `$ npm install react-native-check-notification-permission --save`
