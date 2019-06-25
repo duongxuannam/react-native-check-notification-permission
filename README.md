@@ -5,11 +5,11 @@
 
 ### iOS
 
-![](ios.gif)
+![](ios.gif){:height="50%" width="50%"}
 
 ### Android
 
-![](https://i.imgur.com/SfjrjTP.gif)
+![](https://i.imgur.com/SfjrjTP.gif){:height="50%" width="50%"}
 ## Getting started
 
 `$ npm install react-native-check-notification-permission --save`
