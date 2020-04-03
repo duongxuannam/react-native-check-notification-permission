@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNCheckNotificationPermission
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/duongxuannam/react-native-check-notification-permission"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
