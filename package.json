@@ -1,14 +1,27 @@
 
 {
   "name": "react-native-check-notification-permission",
-  "version": "1.0.5",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.6",
+  "description": "Library to check and setting notification react native support both old and new architecture",
+  "react-native": "src/index",
+  "source": "src/index",  
+  "files": [
+      "src",
+      "android",
+      "ios",
+      "calculator.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+  ],
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native", "notification-permission","edit-notification","android","ios"
+    "react-native", "notification-permission","edit-notification","android","ios", "turbo module", "new architecture"
   ],
   "license": "ISC",
   "bugs": {
@@ -17,6 +30,15 @@
   "homepage": "https://github.com/duongxuannam/react-native-check-notification-permission",
   "author": "Duong Xuan Nam <duongxuannam1995@gmail.com>",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNCheckNotificationPermissionSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.rnchecknotificationpermission"
+    }
   }
 }
