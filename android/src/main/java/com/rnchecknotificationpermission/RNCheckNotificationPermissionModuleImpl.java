@@ -10,7 +10,7 @@ import android.content.Intent;
 
 public class RNCheckNotificationPermissionModuleImpl {
 
-    public static final String NAME = "RNRNCheckNotificationPermission";
+    public static final String NAME = "RNCheckNotificationPermission";
 
 
     public static void add(double a, double b, Promise promise) {

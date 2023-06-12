@@ -3,7 +3,7 @@
 #ifdef RCT_NEW_ARCH_ENABLED
 
 #import <RNCheckNotificationPermissionSpec/RNCheckNotificationPermissionSpec.h>
-@interface RNCheckNotificationPermission: NSObject <NativeModuleSpec>
+@interface RNCheckNotificationPermission: NSObject <NativeCheckNotificationSpec>
 
 #else
 

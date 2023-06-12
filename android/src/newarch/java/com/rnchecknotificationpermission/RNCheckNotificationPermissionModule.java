@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.HashMap;
 import com.facebook.react.bridge.ReactApplicationContext;
 
-public class RNCheckNotificationPermissionModule extends NativeModuleSpec {
+public class RNCheckNotificationPermissionModule extends NativeCheckNotificationSpec {
       private final ReactApplicationContext reactContext;
 
 
