@@ -1,4 +1,4 @@
-import RNCheckNotificationPermission from './src/NativeCheckNotification'
+import RNCheckNotificationPermission from './NativeCheckNotification'
 
 const checkNotificationPermission = async () => {
     const result = await RNCheckNotificationPermission?.checkNotificationPermission()
